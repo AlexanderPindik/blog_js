@@ -1,0 +1,26 @@
+{
+  "name": "blog_js",
+  "version": "1.0.0",
+  "description": "simple blog",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexanderPindik/blog_js.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "Alexander Pindik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexanderPindik/blog_js/issues"
+  },
+  "homepage": "https://github.com/AlexanderPindik/blog_js#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.4.0"
+  }
+}
