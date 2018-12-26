@@ -23,11 +23,11 @@ res.status(201).json(post)
 })
 
 // http://localhost:5000/api/post/23 (DELETE)
-router.delete('/:postID', async (req, res) =>{
-await Post.remove({_id:req.params.postID})
-res.status(200).json({
-	message: 'Удалено'
-})
+router.delete('/:postId', async (req, res) =>{
+	await Post.remove({_id: req.params.postId})
+	res.status(200).json({
+		message: 'Удалено'
+	})
 })
 
 
